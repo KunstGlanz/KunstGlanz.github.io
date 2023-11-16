@@ -1,1 +1,0 @@
-# KunstGlanz.github.io
