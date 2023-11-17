@@ -21,7 +21,7 @@ body {
     color: black;
 }
 .gallery-section {
-    display: none; /* Ocultar todas las secciones por defecto */
+    /* display: none; /* Ocultar todas las secciones por defecto */
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Crea tres columnas */
