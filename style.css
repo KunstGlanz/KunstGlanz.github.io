@@ -17,7 +17,7 @@ body {
     text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #0f0f0f;
     color: black;
 }
 .gallery-section {
