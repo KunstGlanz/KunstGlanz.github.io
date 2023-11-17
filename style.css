@@ -23,4 +23,14 @@ body {
 .gallery-section {
     display: none; /* Ocultar todas las secciones por defecto */
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilo para las imágenes dentro de la galería */
+.gallery-section img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la columna */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio disponible */
 }
