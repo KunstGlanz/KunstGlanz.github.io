@@ -25,7 +25,7 @@ body {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Crea tres columnas */
-    grid-gap: 10px; /* Espacio entre las imágenes */
+    grid-gap: 40px; /* Espacio entre las imágenes */
 }
 
 /* Estilo para las imágenes dentro de la galería */
